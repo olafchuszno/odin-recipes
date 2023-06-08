@@ -3,38 +3,46 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-
     background-color: #f2eecb;
 }
 
-img {
-    width: 400px;
-    height: auto;
-}
-
 h1 {
-    font-size: 50px;
-
-    padding: 20px;
-
     text-align: center;
+    font-size: 60px;
+    margin: 100px;
 }
 
-h3,
-h4 {
-    text-align: center;
+.recipe {
+    width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    border: 5px solid darkgoldenrod;
+
 }
 
-h2 {
-    font-size: 42px;
+div img {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 140px;
 }
 
-#enjoy {
-    font-size: 45px;
+.content {
+    display: inline-block;
+}
 
-    text-align: center;
-
+div a {
+    vertical-align: top;
+    font-size: 30px;
+    text-decoration: none;
+    color: darkgoldenrod;
+    font-size: 36px;
     font-weight: 700;
 }
 
-
+div p {
+    vertical-align: top;
+    width: 400px;
+    font-size: 24px;
+}
